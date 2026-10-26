@@ -1,0 +1,22 @@
+{
+  "name": "mini-tp-pokemon",
+  "version": "1.0.0",
+  "description": "API REST Express + TypeScript + PostgreSQL - mini TP Pokémon",
+  "main": "dist/app.js",
+  "scripts": {
+    "build": "node node_modules/typescript/bin/tsc",
+    "start": "node dist/app.js"
+  },
+  "author": "IDER Massinissa",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.3.0",
+    "pg": "^8.23.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.5",
+    "@types/pg": "^8.23.1",
+    "typescript": "^7.0.2"
+  }
+}
